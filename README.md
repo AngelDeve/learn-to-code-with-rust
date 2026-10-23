@@ -1,5 +1,19 @@
 # Learn to Code with Rust
 
+## Apuntes y prácticas de este fork · Español
+
+Este fork conserva los materiales del curso de [Boris Paskhaver](https://github.com/paskhaver/learn-to-code-with-rust) y añade explicaciones propias en español con aplicaciones a infraestructura.
+
+| Sección | Preparación | Explicación | Práctica |
+| --- | --- | --- | --- |
+| Variables y mutabilidad | [Inicio](variables-and-mutability/INICIO.md) | [Guía con ejemplos](variables-and-mutability/GUIA_VARIABLES_MUTABILIDAD.md) | [Simular un despliegue](variables-and-mutability/EJERCICIO_INFRAESTRUCTURA.md) |
+
+Los ejemplos añadidos están en `examples/` dentro del proyecto de cada sección. Se ejecutan con `cargo run --example nombre`, desde esa carpeta. Los ejemplos originales del profesor están en `src/bin/` y se ejecutan con `cargo run --bin nombre`.
+
+Para extender estos apuntes en próximas secciones, añade una explicación, ejemplos ejecutables y un ejercicio con criterios de revisión; enlázalos en esta tabla. Documenta los comandos que hayas comprobado. Los ejemplos de infraestructura deben indicar si simulan un sistema o interactúan con servicios reales.
+
+Los materiales e instrucciones originales del curso continúan a continuación.
+
 ![Github Download](assets/RustCrab.png)
 
 Welcome! These are the course materials for the **Learn to Code with Rust** course.
